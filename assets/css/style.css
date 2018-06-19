@@ -1,0 +1,38 @@
+/* global */
+main {
+    font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../images/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* adjusts the pages title, h1 element */
+.title {
+    font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+/* adjusts the container that holds the individual questions and answers */
+.question-wrapper {
+    border: 2px solid #ffbb33;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* the p element that contains the questions */
+.question {
+    margin: 5px 5px 0 5px;
+}
+
+/* the div that holds the answer lists */
+.form-check {
+    margin: 0 5px 5px 5px;
+}
+
+/* footer div */
+footer {
+    text-align: center;
+    background-color: #ffbb33;
+    margin: 0;
+    padding: 5px;
+}

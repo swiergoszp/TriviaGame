@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vault 101 G.O.A.T.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="container">
+        <div class="row">
+            <h1 class="title col-5">Vault 101 G.O.A.T.</h1>
+            <button type="button" id="reset" class="btn btn-warning d-none">Reset Game</button>
+            <div class="timer col-4"></div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <br>
+
+            <div class="row justify-content-center">
+                <button type="button" id="start" class="btn btn-warning">Start Game</button>
+            </div>
+
+            <br>
+            
+            <div class="">
+
+            <div class="question-wrapper" id="Q1">
+                <p class="question">While working as an intern in the Clinic, a patient with a strange 
+                    infection on his foot stumbles through the door. The infection is 
+                    spreading at an alarming rate, but the doctor has stepped out for 
+                    a while. What do you do?</p>
+                <!-- bootstrap that creats radio selector for answer -->
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q1Radios" id="clinic1" value="2">
+                    <label class="form-check-label" for="clinic1">Amputate the foot before the infection spreads</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q1Radios" id="clinic2" value="1">
+                    <label class="form-check-label" for="clinic2">Scream for help</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q1Radios" id="clinic3" value="4">
+                    <label class="form-check-label" for="clinic3">Medicate the infected area to the best of your abilities</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q1Radios" id="clinic4" value="3">
+                    <label class="form-check-label" for="clinic4">Restrain the patient, and merely observe as the infection spreads</label>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="question-wrapper" id="Q2">
+                <p class="question">Oh, no! You've been exposed to radiation, and a mutated hand has 
+                    grown out of your stomach! What's the best course of treatment?</p>
+                <!-- bootstrap that creats radio selector for answer -->
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q2Radios" id="exampleRadios1" value="2">
+                    <label class="form-check-label" for="exampleRadios1">A bullet to the brain</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q2Radios" id="exampleRadios2" value="4">
+                    <label class="form-check-label" for="exampleRadios2">Large doses of anti-mutagen agent</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q2Radios" id="exampleRadios3" value="1">
+                    <label class="form-check-label" for="exampleRadios3">Prayer. Maybe God will spare you in exchange for a life of pious devotion</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q2Radios" id="exampleRadios4" value="3">
+                    <label class="form-check-label" for="exampleRadios4">Removal of the mutated tissue with a precision laser</label>
+                </div>
+            </div>  
+
+            <br>
+
+            <div class="question-wrapper" id="Q3">
+                <p class="question">You decide it would be fun to play a prank on your father. You enter 
+                    his private restroom when no one is looking, and....</p>
+                <!-- bootstrap that creats radio selector for answer -->
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q3Radios" id="exampleRadios1" value="2">
+                    <label class="form-check-label" for="exampleRadios1">Loosen some bolts on some pipes. When the sink is turned on, the room will flood</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q3Radios" id="exampleRadios2" value="4">
+                    <label class="form-check-label" for="exampleRadios2">Put a firecracker in the toilet. That's sure to cause some chaos</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q3Radios" id="exampleRadios3" value="2">
+                    <label class="form-check-label" for="exampleRadios3">Break into the locked medicine cabinet and replace his high blood pressure medication with sugar pills</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q3Radios" id="exampleRadios4" value="3">
+                    <label class="form-check-label" for="exampleRadios4">Manipulate the power wattage on his razor, so he'll get an electric shock next time he shaves</label>
+                </div>
+            </div>   
+
+            <br>
+
+            <div class="question-wrapper" id="Q4">
+                <p class="question">Your grandmother invites you to tea, but you're surprised when she 
+                    gives you a pistol and orders you to kill another Vault resident. 
+                    What do you do?</p>
+                <!-- bootstrap that creats radio selector for answer -->
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q4Radios" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">Obey your elder and kill the Vault resident with the pistol</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q4Radios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">Offer your most prized possession for the resident's life</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q4Radios" id="exampleRadios3" value="option3">
+                    <label class="form-check-label" for="exampleRadios3">Ask granny for a minigun instead. After all, you don't want to miss</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q4Radios" id="exampleRadios4" value="option4">
+                    <label class="form-check-label" for="exampleRadios4">Throw your tea in granny's face</label>
+                </div>
+            </div>   
+            
+            <br>
+
+            <div class="question-wrapper" id="Q5">
+                <p class="question">Who is indisputably the most important person in Vault 101: He who 
+                    shelters us from the harshness of the atomic wasteland, and to 
+                    whom we owe everything we have, including our lives?</p>
+                <!-- bootstrap that creats radio selector for answer -->
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q5Radios" id="exampleRadios1" value="0">
+                    <label class="form-check-label" for="exampleRadios1">The Overseer</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q5Radios" id="exampleRadios2" value="0">
+                    <label class="form-check-label" for="exampleRadios2">The Overseer</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q5Radios" id="exampleRadios3" value="0">
+                    <label class="form-check-label" for="exampleRadios3">The Overseer</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q5Radios" id="exampleRadios4" value="0">
+                    <label class="form-check-label" for="exampleRadios4">The Overseer</label>
+                </div>
+            </div>    
+
+            <br>
+
+            <div class="row justify-content-center">
+                <input class="btn btn-warning" type="submit" value="Submit">
+            </div>
+            
+            <br>
+
+            <div class="results"></div>
+
+        </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Copyright Vault-Tec 2168</p>
+    </footer>
+    
+</body>
+</html>

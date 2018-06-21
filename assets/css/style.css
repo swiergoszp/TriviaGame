@@ -9,7 +9,33 @@ main {
 /* adjusts the pages title, h1 element */
 .title {
     font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
-    margin: 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.timer {
+    font-size: 200%;
+    text-align: right;
+    background-color: white;
+    margin: 10px 0 8px 0;
+    font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
+}
+
+/* adds style box to results */
+.resultbox {
+    border: 2px solid #ffbb33;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* the p element that contains the outcome */
+.results {
+    margin: 5px 5px 0 5px;
+}
+
+/* the p element that contains the skills */
+.skills {
+    margin: 5px 5px 0 5px;
 }
 
 /* adjusts the container that holds the individual questions and answers */
@@ -35,4 +61,10 @@ footer {
     background-color: #ffbb33;
     margin: 0;
     padding: 5px;
+    font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
+    vertical-align: baseline;
+}
+
+.copyright {
+    margin: 0;    
 }

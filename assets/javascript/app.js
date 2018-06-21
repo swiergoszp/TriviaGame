@@ -99,7 +99,7 @@ $("document").ready(function() {
         
         var result = ques1 + ques2 + ques3 + ques4;
 
-        // shows the total in the console
+        // shows the total in the consoleg
         console.log(result);
 
         // gives message based on overall score

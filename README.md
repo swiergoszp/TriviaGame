@@ -1,60 +1,42 @@
 # TriviaGame
-basic quiz game with timer
+basic quiz game with timer themed as Fallout 3 GOAT exam
 
+All questions and answers and the property of Bethesda Softworks.
 
+My JS pseudo-code to give you an idea of what my plan was:
 
+1. user takes quiz
 
+a. set up timer that starts at start button click
 
+insert start button that starts timer and removes class .d-none from question div
+insert 60 second timer in row with header
+add/remove classes to some objects to progress DOM appearance
 
+b. create submit button that ends game before timer and moves to next step
 
+on submit gather values to determine results displayed
+display results in place of the quiz leaving only them and a reset button
 
+c. or timer moves on if user hasnt submitted
 
+if timer runs out don't return any results, give sarcastic message instead
 
+2. answers have specific value that assigns outcome
 
-Shareware/ Font License
+a. store value from the answers in individual vars
 
-Pixel Sagas Freeware Fonts EULA (End User License Agreement) and Software Inclusion Agreement
+set up second set of values for sub skills
 
-"Purchaser" and "User" may be used interchangeably in this agreement.
+b. create var of total value of each individual var
 
-"Pixel Sagas" and "Neale Davidson" may be used interchangeably in this agreement. These all refer to the intellectual and legal property of Neale Davidson.
+3. results display likelyhood of survival in the wastes and potential "top skill"
 
-Usage
+a. display how likely the user is to succeed out of the vault
 
-Pixel Saga's Shareware Fonts are free to use for personal, non-commercial purposes. No payment is necessary to use Pixel Saga's Freeware Fonts for personal use, and there is no limit to the amount of prints, pages, or other medium to be produced using them. However, you cannot offer the font for commercial sale, or offer for direct download. The inclusion othe font name and/or site URL in the credits or documentation when it is used is appreciated, but this is not mandatory.
+1-4 maybe dont leave
+5-8 trader with close locations
+9-12 easily make a life in the wastes
+13-16 strike fear into the raiders of the wastes
 
-Payment
-
-Payment is not required for the use of Pixel Saga's Shareware Fonts. Commercial use requires a modest fee which can be paid through the pixelsagas.com web site through Paypal.com's services. The transaction receipt for any shareware "commercial license" purchase will suffice as proof of license.
-
-Support
-
-Font installation help is available at http://www.pixelsagas.com. If you experience problems with any Pixel Saga's Freeware font (such as spacing issues or missing characters), please verify that you have the correct and current version of the fonts. In the case of Freeware fonts, downloading the font directly from the Pixel Sagas site will ensure that the font files have not been altered.
-
-Software Inclusion Agreement
-
-Pixel Saga's software products are protected by copyright laws and International copyright treaties, as well as other intellectual property laws and treaties. All Pixel Saga's software products are licensed, not sold.
-
-1) GRANT OF LICENSE
-
-This document grants the user the following rights:
-
-Installation and Use. The user may install and use an unlimited number of copies of the software product. The user may not offer Pixel Sagas freeware fonts for direct download unless the user has received explicit, written permission from Neale Davidson. Otherwise please direct users to the http://www.pixelsagas.com website. Pixel Sagas freeware fonts may, however, be embedded for web, publication, or general software use.
-
-2) WARRANTIES
-
-None
-
-Pixel Sagas expressly disclaims any warranty for the software product. The software product and any related documentation is provided "as is" without warranty of any kind, either express or implied, including, without limitation, the implied warranties or merchantability, fitness for a particular purpose, or non-infringement. The entire risk arising out of use or performance of the software product remains with the user.
-
-No Liability For Consequential Damages.
-
-In no event shall Neale Davidson or Pixel Sagas be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use this product, even if Pixel Sagas has been advised of the possibility of such damages.
-
-3) MISCELLANEOUS
-
-Should the user have any questions concerning this document or you desire to contact Neale Davidson for any reason, please email jaynz@pixelsagas.com .
-
-Governing Law
-
-This agreement is governed by and subject to the laws of the United States of America.
+b. notifies the user of any particular skills

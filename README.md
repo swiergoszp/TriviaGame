@@ -3,6 +3,8 @@ basic quiz game with timer themed as Fallout 3 GOAT exam
 
 All questions and answers and the property of Bethesda Softworks.
 
+https://swiergoszp.github.io/TriviaGame/
+
 My JS pseudo-code to give you an idea of what my plan was:
 
 1. user takes quiz
